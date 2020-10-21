@@ -1,9 +1,12 @@
 let mongoose = require("mongoose");
-let db = require("../models");
+let db = {};
+db.Workout = require("../models/workoutLogic.js");
 
 mongoose.connect("mongodb://localhost/workout", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
 });
 
 let workoutSeed = [
