@@ -2,7 +2,7 @@ let mongoose = require("mongoose");
 let db = {};
 db.Workout = require("../models/workoutLogic.js");
 
-mongoose.connect("mongodb://localhost/workout", {
+mongoose.connect("mongodb://localhost/tracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
