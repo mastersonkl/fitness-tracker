@@ -1,4 +1,5 @@
-const Workout = require("../models/workoutLogic.js");
+
+const Workout = requi("../models/workoutLogic.js");
 
 module.exports = function (app) {
     app.get("/api/workouts", (req, res) => {
