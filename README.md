@@ -27,7 +27,10 @@ You can install this program by cloning it to your local machine by running `git
 
 ## Usage Information
 
-This is a simple and user friendly fitness tracking app. After adding an exercise it will save it and add it to the graph of all the other exercises completed. This application is deployed on Heroku and can be found here:
+This is a simple and user friendly fitness tracking app. After adding an exercise it will save it and add it to the graph of all the other exercises completed. To view the graph click on Fitness Tracker Dashboard on the top left. To get back to adding new exercises click on the Fitness Tracker on the top left again. This application is deployed on Heroku and can be found here: https://fitness-tracker01.herokuapp.com/?id=5f90b49a7dc72e0017d985f2
 
 
-![](img/)
+
+![](img/fitness01.png)
+
+![](img/fitness02.png)
